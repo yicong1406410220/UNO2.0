@@ -10,7 +10,7 @@ public class Card : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        SetCardSprite(cardColorType, cardNumbeType);
+        SetCardSprite(cardNumbeType, cardColorType);
     }
 	
 	// Update is called once per frame
@@ -18,7 +18,7 @@ public class Card : MonoBehaviour {
        
 	}
 
-    public void SetCardSprite(CardColorType cardColorType, CardNumbeType cardNumbeType)
+    public void SetCardSprite(CardNumbeType cardNumbeType, CardColorType cardColorType )
     {
         if(cardColorType != CardColorType.NNull)
         this.cardColorType = cardColorType;
