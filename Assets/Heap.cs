@@ -22,7 +22,8 @@ public class Heap : MonoBehaviour {
     /// </summary>
     void InitHeap()
     {
-
+        if ()
+        
 
     }
 
