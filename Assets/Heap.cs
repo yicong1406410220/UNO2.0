@@ -4,12 +4,18 @@ using UnityEngine;
 
 public class Heap : MonoBehaviour {
 
+    public static Heap instance;
+
     public List<Card> Heaps = new List<Card>();
 
     public GameObject objCard;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
+        if (instance == null)
+        {
+            instance = this;
+        }
         InitHeap();
         Shuffle();
     }

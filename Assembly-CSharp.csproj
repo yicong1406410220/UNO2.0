@@ -63,8 +63,12 @@
   <ItemGroup>
     <Compile Include="Assets\Card.cs" />
     <Compile Include="Assets\CardType.cs" />
+    <Compile Include="Assets\DataManager.cs" />
     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+    <Compile Include="Assets\GameController.cs" />
     <Compile Include="Assets\Heap.cs" />
+    <Compile Include="Assets\Person.cs" />
+    <Compile Include="Assets\PersonType.cs" />
     <Compile Include="Assets\Scripts\UIPanel\abPanel.cs" />
     <Compile Include="Assets\Scripts\UIPanel\InfoPanel.cs" />
     <Compile Include="Assets\Scripts\UIPanel\TitlePanel.cs" />
